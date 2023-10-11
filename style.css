@@ -1,8 +1,13 @@
+@font-face {
+    font-family: Agency;
+    src: url(font/AGENCYB.TTF);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'gilroy';
+    font-family: 'Agency';
 }
 
 html,
