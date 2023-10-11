@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hit.The.Number - Made By Gopesh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body>
+    <div class="main flex-center ">
+        <div class="start-screen flex-center">
+            <button id="start-btn">Start Game</button>
+        </div>
+        <div class="game-screen">
+            <div class="gs-top">
+                <div class="elems">
+                    <h2>Hits</h2>
+                    <div class=" display flex-center" id="hit-display">0</div>
+                </div>
+                <div class="elems">
+                    <h2>Timer</h2>
+                    <div class=" display flex-center" id="timer-display">60</div>
+                </div>
+                <div class="elems">
+                    <h2>Score</h2>
+                    <div class=" display flex-center" id="score-display">0</div>
+                </div>
+            </div>
+            <div class="gs-bottom flex-center">
+            </div>
+            <div class="end-screen flex-center dis-none">
+                <h1>Game Over</h1>
+                <h1>Score: <span id="scr-display">0</span></h1>
+                <button id="end-btn">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
